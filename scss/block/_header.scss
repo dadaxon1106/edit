@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin-top: 77px;
+    &__list{
+        display: flex;
+        list-style-type: none;
+        padding-left: 80px;
+       
+        
+    }
+  .nav__inner-text {
+    color: white;
+  }
+  .click {
+    @include click
+  }
+    
+}
+.nav__inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav__list-item a {
+    padding: 40px;
+    text-decoration: none;
+    color: white;
+}
+@media (max-width:1252px) {
+    .nav__list{
+       position: absolute;
+       left: 100px;
+        
+    }
+    .nav__inner-text {
+        position: absolute;
+        left: 60px;
+    }
+    .click{
+        position: absolute;
+        left: -50px;
+    }
+}

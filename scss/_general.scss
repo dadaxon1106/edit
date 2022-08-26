@@ -1,0 +1,18 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+#head{
+    background-color: #014E56;
+}
